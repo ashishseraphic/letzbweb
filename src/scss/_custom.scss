@@ -1,0 +1,67 @@
+// Here you can add other styles
+.overlay-div {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.loader-container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  text-align: center;
+  line-height: 1.6rem;
+
+  .loader-container-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  small {
+    margin: 10px 0 0;
+    display: block;
+    color: $gray-600;
+    font-weight: normal;
+  }
+
+  h3 {
+    text-align: center;
+    display: block;
+  }
+}
+
+
+.custom-selectbox{
+
+  .form-group {
+    .form-group {
+      display: flex;
+      label{
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+      } 
+    }
+  }
+}
+.col-md-7 {
+  margin-bottom:15px
+}
+#excerciseLongDescription{
+  height: 100px!important;
+}
+#timer{
+  width: 240px;;
+}
+.focusclass input[type=search]:focus{
+    outline: 0px;
+}

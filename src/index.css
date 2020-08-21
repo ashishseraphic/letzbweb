@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.card-body .react-tagsinput{    border: 1px solid #e4e7ea;
+  border-radius: 0.25em;}
+.card-body .react-tagsinput.react-tagsinput--focused{border-color:#8ad4ee; 
+    box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.25); }
+
+.card-body .react-tagsinput .react-tagsinput-tag{    background-color:rgba(60, 57, 119, 0.25); border-radius: 2px;border: 1px solid #8ad4ee;color: #396777;}

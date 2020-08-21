@@ -1,0 +1,74 @@
+// Styles
+// CoreUI Icons Set
+@import "~@coreui/icons/css/coreui-icons.css";
+// Import Flag Icons Set
+// @import "~flag-icon-css/css/flag-icon.min.css";
+// Import Font Awesome Icons Set
+@import "~font-awesome/css/font-awesome.min.css";
+// Import Simple Line Icons Set
+@import "~simple-line-icons/css/simple-line-icons.css";
+// Import Main styles for this application
+@import "~react-toastify/dist/ReactToastify.css";
+@import "~react-table/react-table.css";
+@import "./scss/style.scss";
+
+.__toast-container--top-right {
+  z-index: 9999 !important;
+}
+
+.sidebar .nav-link {
+  align-items: center;
+  display: flex;
+}
+
+.card-header,
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchContainer .form-group {
+  margin-bottom: 0;
+}
+
+.searchContainer form {
+  margin-right: 10px;
+}
+
+.sidebar .nav-link .nav-icon,
+.card-header i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.table thead th {
+  border-bottom: 2px solid #eaeaea !important;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #eaeaea !important;
+}
+
+.react-bs-table-bordered {
+  border: 1px solid #eaeaea !important;
+}
+.sidebar .nav
+{
+  // background:linear-gradient(-90deg, #336699, #ccccff) !important;
+  background:#180000
+}
+
+
+.customClass {
+  // override padding or height whatever you want 
+  padding: 3px;
+  height: 20px;
+}
